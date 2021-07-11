@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("/font-face-task2/fonts/ProximaNova/ProximaNovaRegular.otf");
+}
+
+
+.container {
+width: 1200px;
+height: 900px;
+background-color:#464F53;
+border: 3px solid blueviolet;
+margin: 0 auto;
+display: flex;
+flex-direction:column ;
+/* box-sizing: border-box; */
+}
+.title {
+ width: 70%;   
+ height: 200px;
+ background-color: black;
+ margin-top: 30px;
+ margin-left: 30%;
+ z-index: 10;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.icons {
+    width: 60%;
+    height: 80px;
+    background-color:#FBC02D ;
+    margin-left: 40%; 
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    box-sizing: border-box;
+    
+}
+.white {
+    width: 80%;
+    height: 800px;
+    background-color: white;
+    /* border: 2px solid green; */
+    margin: -180px auto 0;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+input {
+    width:80%;
+    height: 30%;
+    /* opacity: 0.3; */
+    text-transform: capitalize;
+    font-size: 48px;
+line-height: 94px;
+color: #fefefe;
+font-weight: 400;
+font-family: "Playfair Display";
+background-color: black;
+margin-left: 15%;
+box-sizing: border-box;
+border: none;
+outline:none ;
+border-bottom: 2px solid hsl(0, 0%, 46%);
+}
+label {
+    color:rgb(255, 255, 255) ;
+    font-size: 15px;
+letter-spacing: 5px;
+/* line-height: 109px; */
+color: #767676;
+font-family: "Proxima Nova";
+margin-left: 15%;
+
+}
+ i{
+      color:rgba(255, 255, 255, 0.5);
+      margin: 10px;
+ }
+ i:hover {
+    color:rgba(255, 255, 255, 1);
+    cursor: pointer;
+ }
+ .inner {
+     width: 90%;
+     height: 100%;
+   
+     /* margin-left: auto; */
+   
+    border-left: 2px solid rgba(19, 15, 15, 0.3); 
+ }
+ .element-1 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #b4b4b4;
+    font-family:"Proxima Nova",  "Futura PT";
+ }
+ .element-2 {
+    /* width: 1225px; */
+    height: 366px;
+    font-size: 78px;
+    letter-spacing: 4px;
+    line-height: 74px;
+    color: #2a2a2a;
+    font-family: "Futura PT";
+ }
+ .element-3 {
+    font-size: 30px;
+    line-height: 62px;
+    color: #8f8f8f;
+    font-style: italic;
+    font-family: "Georgia";
+    text-align: left;
+ }
+ .element-4 {
+    /* width: 1243px; */
+    height: 241px;
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Georgia";
+    text-align: left;
+    margin-bottom: 50px;
+ }
+ .element-5 {
+    /* width: 1243px; */
+height: 582px;
+font-size: 27px;
+line-height: 40px;
+color: #000000;
+font-family: "Georgia";
+text-align: left;
+ }
+ .element {
+     display: flex;
+     flex-direction: column;
+  
+     /* border: 2px solid red; */
+     width: 80%;
+     height: 75%;
+     padding-top: 200px;
+ }
